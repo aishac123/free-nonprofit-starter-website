@@ -22,12 +22,12 @@ org_state: WA
 org_zip: > # Enter zip on next line. Be sure to indent by two spaces.
   98195
 org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
-  (123) 456-7890
+  
 
 #SOCIAL MEDIA
 org_twitter_username: https://twitter.com/bgsauw
-org_facebook_username: smartergiving
-org_instagram_username: Instagram
+org_facebook_username: 
+org_instagram_username: https://www.instagram.com/bgsa.uw/?hl=en
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section
