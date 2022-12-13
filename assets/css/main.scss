@@ -9,19 +9,19 @@
 
 {% if site.color_scheme == "one" %}
   $color: #17baef;
-  $color-2: #5900b3;
+  $color-2: #9d32a8;
 {% elsif site.color_scheme == "two" %}
-  $color: #8A2BE2;
+  $color: #1a7509;
   $color-2: #dd7c4f;
 {% elsif site.color_scheme == "three" %}
-  $color: #666699;
-  $color-2: #f46fa3;
+  $color: #9d32a8;
+  $color-2: #a10808;
 {% elsif site.color_scheme == "four" %}
-  $color: #50c8c9;
+  $color: #9d32a8;
   $color-2: #339933;
 {% else %}
-  $color: #6600ff;
-  $color-2: #cc0000;
+  $color: #9d32a8;
+  $color-2: #000000;
 {% endif %}
 
 //
