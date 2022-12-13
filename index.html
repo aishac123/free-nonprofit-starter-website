@@ -232,15 +232,17 @@ layout: default
   <div class="container">
     <div class="donate-inner">
       <h2 class="title text-center">Events</h2>
+      <p>We have a ton of fun event planned this quarter! Check out our event calendar for events we have in store!</p>
+       <p><strong>You can find our events here!</strong><br></p>
       <iframe src="https://calendar.google.com/calendar/embed?src=libanh%40uw.edu&ctz=America%2FLos_Angeles" style="border: 3" width="700" height="700" frameborder="2" scrolling="yes"></iframe>
       <div class="info">
-        <p><strong>You can find our events here!</strong><br></p>
+       
         {% if site.donorbox_campaign_name %}
           <div class="donorbox text-center">
     
           </div>
           {% if site.is_501c3 == true %}
-            <p>Contributions are tax deductible to the extent permitted by law.<br>{{ site.org_name }} is a 501(c)(3) organization.</p>
+           
           {% elsif site.fiscal_sponsor_name %}
             <p>{{ site.org_name }} is fiscally sponsored by {{ site.fiscal_sponsor_name }}, a 501 (c)(3) tax exempt non-profit organization.</p>
           {% endif %}
